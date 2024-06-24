@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEAFOOD - Menu Makanan</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Menambahkan Google Font -->
+    <style>
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu-category {
+    margin-bottom: 30px;
+}
+
+.menu-category h2 {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card-deck .card {
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">
+                SEAFOOD
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu Makanan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contant.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Menu Makanan</h1>
+
+        <div class="menu-category">
+            <h2>Hidangan Pembuka</h2>
+            <div class="card-deck">
+                <div class="card">
+                    <img src="kerupuk.jpg" class="card-img-top" alt="Keripik Ikan">
+                    <div class="card-body">
+                        <h5 class="card-title">Keripik Ikan</h5>
+                        <p class="card-text">Rp 20,000</p>
+                        <a href="https://wa.me/yourphonenumber?text=Saya%20ingin%20membeli%20Keripik%20Ikan" class="btn btn-primary">Beli</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="salad.webp" class="card-img-top" alt="Salad Udang">
+                    <div class="card-body">
+                        <h5 class="card-title">Salad Udang</h5>
+                        <p class="card-text">Rp 35,000</p>
+                        <a href="https://wa.me/yourphonenumber?text=Saya%20ingin%20membeli%20Salad%20Udang" class="btn btn-primary">Beli</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h2>Hidangan Utama</h2>
+            <div class="card-deck">
+                <div class="card">
+                    <img src="img/lobster.jpg" class="card-img-top" alt="Lobster">
+                    <div class="card-body">
+                        <h5 class="card-title">Lobster</h5>
+                        <p class="card-text">Rp 150,000</p>
+                        <a href="https://wa.me/yourphonenumber?text=Saya%20ingin%20membeli%20Lobster" class="btn btn-primary">Beli</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="udangbakar.jpg" class="card-img-top" alt="Udang Bakar">
+                    <div class="card-body">
+                        <h5 class="card-title">Udang Bakar</h5>
+                        <p class="card-text">Rp 120,000</p>
+                        <a href="https://wa.me/yourphonenumber?text=Saya%20ingin%20membeli%20Udang%20Bakar" class="btn btn-primary">Beli</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="ikanbakar.webp" class="card-img-top" alt="Ikan Goreng">
+                    <div class="card-body">
+                        <h5 class="card-title">Ikan Bakar</h5>
+                        <p class="card-text">Rp 80,000</p>
+                        <a href="https://wa.me/yourphonenumber?text=Saya%20ingin%20membeli%20Ikan%20Goreng" class="btn btn-primary">Beli</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="kerangsauspadang.webp" class="card-img-top" alt="Kerang Saus Padang">
+                    <div class="card-body">
+                        <h5 class="card-title">Kerang Saus Padang</h5>
+                        <p class="card-text">Rp 90,000</p>
+                        <a href="https://wa.me/yourphonenumber?text=Saya%20ingin%20membeli%20Kerang%20Saus%20Padang" class="btn btn-primary">Beli</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h2>Hidangan Penutup</h2>
+            <div class="card-deck">
+                <div class="card">
+                    <img src="puding.jpg" class="card-img-top" alt="Pudding Kelapa">
+                    <div class="card-body">
+                        <h5 class="card-title">Pudding Kelapa</h5>
+                        <p class="card-text">Rp 30,000</p>
+                        <a href="https://wa.me/yourphonenumber?text=Saya%20ingin%20membeli%20Pudding%20Kelapa" class="btn btn-primary">Beli</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="eskrim.jpg" class="card-img-top" alt="Es Krim Mangga">
+                    <div class="card-body">
+                        <h5 class="card-title">Es Krim Mangga</h5>
+                        <p class="card-text">Rp 25,000</p>
+                        <a href="https://wa.me/yourphonenumber?text=Saya%20ingin%20membeli%20Es%20Krim%20Mangga" class="btn btn-primary">Beli</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 SEAFOOD. All rights reserved.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
